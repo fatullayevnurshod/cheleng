@@ -1,0 +1,63 @@
+:root {
+  --bg-color: #d5e1ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 290px;
+  height: 290px;
+  background-image: url(".././images/image-qr-code.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card-body h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 135%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-body p {
+  margin-bottom: 25px;
+  color: #7b879d;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 5px;
+}
